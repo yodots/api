@@ -1,0 +1,39 @@
+{
+  "name": "YODOTS",
+  "version": "1.0.0",
+  "description": "Node.js Capstone",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test",
+    "start": "nodemon ./app.js",
+    "debug": "node --inspect --debug-brk ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliciacasiano/yodots-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aliciacasiano/yodots-api/issues"
+  },
+  "homepage": "https://github.com/aliciacasiano/yodots-api#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "faker": "^4.1.0",
+    "jsonwebtoken": "^7.3.0",
+    "mongoose": "^4.9.5",
+    "morgan": "^1.8.1",
+    "nodemon": "^1.11.0",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0",
+    "passport-http-bearer": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.2.0"
+  }
+}
